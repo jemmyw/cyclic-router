@@ -17,9 +17,11 @@
     "url": "https://github.com/TylorS/cyclic-router/issues"
   },
   "homepage": "https://github.com/TylorS/cyclic-router#readme",
+  "peerDependencies": {
+    "@cycle/history": ">=3.0.4",
+    "history": "*"
+  },
   "dependencies": {
-    "@cycle/history": "^3.0.4",
-    "history": "^2.1.0",
     "switch-path": "^1.1.6"
   },
   "devDependencies": {
